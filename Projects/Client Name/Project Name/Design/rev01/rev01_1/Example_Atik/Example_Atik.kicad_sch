@@ -5,11 +5,328 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(title "Example Project")
-		(date "2024-06-30")
+		(title "Atik_ESC_rev01_1")
+		(date "2024-07-01")
 		(rev "rev01_1")
+		(comment 4 "Atik Hasan")
 	)
 	(lib_symbols)
+	(text "Atik_ESC_rev01_1"
+		(exclude_from_sim no)
+		(at 144.018 21.336 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "67ad3f1f-c054-49ec-844a-e6a11da011e9")
+	)
+	(sheet
+		(at 21.59 99.06)
+		(size 26.67 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0be55bd7-37de-430b-a53e-3657156ebf1b")
+		(property "Sheetname" "MCU"
+			(at 21.59 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 21.59 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example_Atik"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 96.52)
+		(size 31.75 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a762500-02d9-4303-a1b6-6ef4735db709")
+		(property "Sheetname" "CAN"
+			(at 130.81 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 130.81 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example_Atik"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 97.79)
+		(size 30.48 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c71bdd5-a007-40ca-b606-63b91f65036d")
+		(property "Sheetname" "MOSFETs"
+			(at 91.44 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFETs.kicad_sch"
+			(at 91.44 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example_Atik"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 143.51)
+		(size 31.75 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41f7ebcc-75a3-443c-b1d4-b12a98c218ea")
+		(property "Sheetname" "MECHANICAL"
+			(at 29.21 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MECHANICAL.kicad_sch"
+			(at 29.21 175.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example_Atik"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 48.26)
+		(size 38.1 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a7341a2-3400-40b5-a9e2-0076e4417bf9")
+		(property "Sheetname" "BLOCK DIAGRAM"
+			(at 69.85 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLOCK DIAGRAM.kicad_sch"
+			(at 69.85 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example_Atik"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 96.52)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65f74918-887f-4feb-8a6a-458eccb31eee")
+		(property "Sheetname" "FILTERS"
+			(at 176.53 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FILTERS.kicad_sch"
+			(at 176.53 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example_Atik"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 99.06)
+		(size 29.21 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fbc5337-6d8a-4248-86b4-f37af7826681")
+		(property "Sheetname" "MOSFET DRIVER"
+			(at 55.88 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFET DRIVER.kicad_sch"
+			(at 55.88 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example_Atik"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 50.8)
+		(size 31.75 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6e21b07-e841-4e51-bf44-90c9399b747d")
+		(property "Sheetname" "OVERVIEW"
+			(at 24.13 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OVERVIEW.kicad_sch"
+			(at 24.13 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example_Atik"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "9")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
